@@ -10,7 +10,7 @@ An example of a custom nlu engine is provided in the `../res/nlu/example` folder
 
 Complete these steps:
 
-1. In the your custom skill, create a folder for the  nlu engine in `../res/nlu`. Use a folder name that represents the nlu engine, for example, `rasa`.
+1. In the custom skill, create a folder for the nlu engine in `../res/nlu`. Use a folder name that represents the nlu engine, for example, `rasa`.
 2. Copy the file `../res/nlu/example/nlu.js` to  `../res/nlu/your_custom_nlu_folder`.
 3. Edit the `nlu.js` file. The file provides the following functions:
     - A `constructor` for the nlu engine.
